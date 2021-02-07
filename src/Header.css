@@ -1,0 +1,81 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	background-color: #24292e;
+	z-index: 100;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.header_left {
+	display: flex;
+	align-items: center;
+}
+
+.header_logo {
+	object-fit: contain;
+	height: 40px;
+	margin-left: 40px;
+	margin-right: 20px;
+	/* background-color: white; */
+}
+
+.header_input {
+	border: 1px solid rgb(75, 75, 75);
+	width: 250px;
+	height: 27px;
+	border-radius: 5px;
+	justify-content: space-evenly;
+	display: flex;
+	align-items: center;
+	padding: 3px;
+}
+
+.header_input > input {
+	background-color: transparent;
+	outline: 0;
+	border: none;
+	color: white;
+	width: 220px;
+}
+
+.header_input > button {
+	background-color: transparent;
+	outline: 0;
+	border: 1px solid grey;
+	color: grey;
+	cursor: pointer;
+	border-radius: 3px;
+}
+.header_input ::placeholder {
+	color: rgb(182, 182, 182);
+}
+
+.header_left > p {
+	color: white;
+	margin-left: 15px;
+	font-size: small;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.header_right {
+	display: flex;
+	align-items: center;
+	color: white;
+	flex: 0.2;
+}
+
+.user_avatar {
+	width: 20px !important;
+	height: 20px !important;
+	object-fit: contain !important;
+}
+
+.header_right > .MuiSvgIcon-root {
+	margin-right: 15px;
+}

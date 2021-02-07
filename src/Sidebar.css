@@ -1,0 +1,101 @@
+.sidebar {
+	flex: 0.2;
+	padding: 20px 30px;
+}
+
+.sidebar_header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.sidebar_header > p {
+	color: rgb(59, 59, 59);
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.sidebar_header > button {
+	display: flex;
+	align-items: center;
+	background-color: #2c974b;
+	color: white;
+	padding: 5px;
+	border: none;
+	outline: 0;
+	border-radius: 7px;
+	font-size: 12px;
+	width: 70px;
+	cursor: pointer;
+}
+
+.sidebar > input {
+	width: 230px;
+	margin-top: 10px;
+	padding: 6px;
+	border-radius: 5px;
+	border: 1px solid rgb(189, 188, 188);
+	outline: none;
+	margin-bottom: 15px;
+}
+
+.sidebar > hr {
+	margin-top: 15px;
+	border: 0.1px solid rgb(194, 192, 192);
+}
+
+.sidebar_repository {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.sidebar_repository > p {
+	color: #0366d6;
+	margin-left: 10px;
+	font-size: small;
+	cursor: pointer;
+	font-weight: 500;
+}
+
+.sidebar_bottom {
+	margin-top: 15px;
+}
+
+.sidebar_bottom > p {
+	margin-top: 10px;
+	font-size: 13px;
+}
+
+.sidebar_bottom > h4 {
+	color: rgb(59, 59, 59);
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.sidebar_bottom > Button {
+	color: #0366d6 !important;
+	text-transform: none;
+	margin-top: 10px;
+	padding: 5px !important;
+	border: 1px solid gray;
+	font-size: 11px !important;
+	font-weight: bold !important;
+}
+
+.sidebar > p {
+	color: grey;
+	font-size: small;
+	cursor: pointer;
+	padding-top: 15px;
+}
+
+.sidebar_repository > .MuiSvgIcon-root {
+	color: gray;
+	font-size: 17px;
+}
+
+.sidebar_header > button > .MuiSvgIcon-root {
+	font-size: 20px;
+}
